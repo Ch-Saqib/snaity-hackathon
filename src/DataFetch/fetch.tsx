@@ -3,7 +3,7 @@ import { client } from '../../sanity/lib/client'
 import { ProductTypes } from './types';
 
 export const Getdata= async():Promise<ProductTypes[]> => {
-const res = await client.fetch(`*[_type== "Product"]{
+const res = await client.fetch(`*[_type == "Product"]{
 _id,
 title,
 tag,
