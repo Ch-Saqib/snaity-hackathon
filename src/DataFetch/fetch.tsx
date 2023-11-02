@@ -9,7 +9,7 @@ title,
 tag,
 category,
 price,
-i
+img,
 
 }`);
 
